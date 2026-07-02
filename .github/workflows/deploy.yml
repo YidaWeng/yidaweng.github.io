@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       deployments: write
     concurrency:
       group: "pages"
