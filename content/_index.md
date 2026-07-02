@@ -1,13 +1,20 @@
 ---
 title: "Home"
-layout: "homeinfo"
-url: "/"
+description: "Personal blog and project notes"
 ---
 
-### Jekyll Themes
+# Welcome
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YidaWeng/yidaweng.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This is my new Hugo-powered blog built with PaperMod.
 
-### Support or Contact
+I use this space to share notes, projects, and ideas as I build things.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Recent Posts
+
+You can browse the latest articles in the [Posts](/posts/) section.
+
+## Explore
+
+- [Browse posts](/posts/)
+- [Search the site](/search/)
+- [View the archive](/archives/)
