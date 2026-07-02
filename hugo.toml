@@ -1,0 +1,60 @@
+baseURL = "https://yidaweng.github.io"
+title = "Yida Weng"
+theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+languageCode = "en"
+defaultContentLanguage = "en"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+pagerSize = 5
+
+[params]
+env = "production"
+description = "Welcome to my blog!"
+author = "Yida Weng"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+comments = false
+
+[params.homeInfoParams]
+Title = "Hi 👋"
+Content = "Welcome to my blog"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/YidaWeng"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/"
+
+[menu]
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "Search"
+url = "/search"
+weight = 2
+
+[[menu.main]]
+name = "Archives"
+url = "/archives"
+weight = 3
