@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Yida Weng</title>
-    <link>https://yidaweng.github.io/categories/blog/</link>
+    <link>http://localhost:1313/categories/blog/</link>
     <description>Recent content in Blog on Yida Weng</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 02 Jul 2026 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yidaweng.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to My Blog</title>
-      <link>https://yidaweng.github.io/posts/welcome-to-my-blog/</link>
+      <link>http://localhost:1313/posts/welcome-to-my-blog/</link>
       <pubDate>Thu, 02 Jul 2026 10:00:00 +0000</pubDate>
-      <guid>https://yidaweng.github.io/posts/welcome-to-my-blog/</guid>
+      <guid>http://localhost:1313/posts/welcome-to-my-blog/</guid>
       <description>My first blog post using Hugo and PaperMod theme</description>
     </item>
   </channel>
