@@ -40,8 +40,8 @@ name = "github"
 url = "https://github.com/YidaWeng"
 
 [[params.socialIcons]]
-name = "linkedin"
-url = "https://www.linkedin.com/"
+name = "twitter"
+url = "https://x.com/yidaweng"
 
 [menu]
 [[menu.main]]
