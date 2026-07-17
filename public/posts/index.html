@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="posts">
 <meta name="author" content="Yida Weng">
-<link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6ff46447b1fa3f8a5cc0bcae48088decc3ae37f5fbc99406a3aefc3bf0e6044a.css" integrity="sha256-b/RkR7H6P4pcwLyuSAiN7MOuN/X7yZQGo678O/DmBEo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1314/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1314/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1314/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1314/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1314/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1314/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1314/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1314/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -65,7 +65,17 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/posts/">
+</script><script>
+MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
+    processEscapes: true
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
+<meta property="og:url" content="http://localhost:1314/posts/">
   <meta property="og:site_name" content="Yida Weng">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="posts">
@@ -86,7 +96,7 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "http://localhost:1314/posts/"
     }
   ]
 }
@@ -96,7 +106,7 @@
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Yida Weng (Alt + H)">Yida Weng</a>
+            <a href="http://localhost:1314/" accesskey="h" title="Yida Weng (Alt + H)">Yida Weng</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -122,18 +132,39 @@
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="http://localhost:1313/posts" title="Blog">
-                    <span class="active">Blog</span>
+                <a href="http://localhost:1314/posts" title="Posts">
+                    <span class="active">Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1314/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/archives" title="Archives">
+                <a href="http://localhost:1314/archives" title="Archives">
                     <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1314/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/YidaWeng/rl-exploration-poc" title="Code">
+                    <span>Code</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1314/about" title="About">
+                    <span>About</span>
                 </a>
             </li>
         </ul>
@@ -161,6 +192,26 @@
 </header>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1314/images/comparison_bar_chart.png" alt="Model comparison bar chart">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exploration in Reinforcement Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Problem In sparse-reward environments, standard RL agents receive no learning signal for most of their actions. Without structured exploration, they collapse to local optima or fail to learn entirely.
+Consider the policy gradient:
+\[ \nabla_\theta J(\theta) = \mathbb{E}_{s, a \sim \pi_\theta} \left[ \nabla_\theta \log \pi_\theta(a|s) \cdot Q^\pi(s, a) \right] \]When \(Q^\pi(s, a) \approx 0\) for most \((s, a)\), the gradient vanishes. The agent receives no signal about which actions are valuable, and random exploration (ε-greedy) is exponentially inefficient in high-dimensional action spaces.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-07-17 00:00:00 +0000 UTC'>July 17, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>Yida Weng</span></footer>
+  <a class="entry-link" aria-label="post link to Exploration in Reinforcement Learning" href="http://localhost:1314/posts/exploration-in-rl/"></a>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Welcome to My Blog
     </h2>
@@ -174,13 +225,13 @@ Create blog posts in Markdown Automatically generate a static website Deploy to 
   </div>
   <footer class="entry-footer">
 
-<span title='2026-07-02 10:00:00 +0000 UTC'>July 2, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>91 words</span>&nbsp;·&nbsp;<span>Yida Weng</span></footer>
-  <a class="entry-link" aria-label="post link to Welcome to My Blog" href="http://localhost:1313/posts/welcome-to-my-blog/"></a>
+<span title='2026-07-02 10:00:00 +0000 UTC'>July 2, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Yida Weng</span></footer>
+  <a class="entry-link" aria-label="post link to Welcome to My Blog" href="http://localhost:1314/posts/welcome-to-my-blog/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Yida Weng</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1314/">Yida Weng</a></span> · 
 
     
     

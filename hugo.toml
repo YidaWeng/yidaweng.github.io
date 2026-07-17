@@ -7,18 +7,28 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
-languageCode = "en"
-defaultContentLanguage = "en"
+locale = "en"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [pagination]
-pagerSize = 5
+pagerSize = 10
 
 [params]
 env = "production"
-description = "Welcome to my blog!"
+description = "Reinforcement learning, AI safety, and engineering"
 author = "Yida Weng"
 defaultTheme = "auto"
 ShowShareButtons = true
@@ -26,14 +36,17 @@ ShowReadingTime = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = true
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 comments = false
+math = true
 
 [params.homeInfoParams]
-Title = "Hi 👋"
-Content = "Welcome to my blog"
+Title = "Hi, I'm Yida"
+Content = """
+I'm a reinforcement learning engineer. This blog documents my exploration of RL exploration — the mathematics and engineering behind curiosity-driven agents.
+"""
 
 [[params.socialIcons]]
 name = "github"
@@ -45,7 +58,7 @@ url = "https://x.com/yidaweng"
 
 [menu]
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 url = "/posts"
 weight = 1
 
@@ -58,3 +71,18 @@ weight = 2
 name = "Archives"
 url = "/archives"
 weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Code"
+url = "https://github.com/YidaWeng/rl-exploration-poc"
+weight = 5
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 6
