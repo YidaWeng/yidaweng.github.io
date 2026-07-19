@@ -1,6 +1,6 @@
 ---
 title: "Building a Production-Grade AI Agent PoC — From Blueprint to Working System"
-date: 2026-07-19T12:30:00Z
+date: 2026-07-19T08:00:00Z
 draft: false
 description: "A walkthrough of building an observable, testable AI agent with RAG, web search, and code execution — including every twist, turn, and debugging session along the way."
 tags: ["ai", "agents", "langchain", "gemini", "fastapi", "rag", "agents-poc"]
